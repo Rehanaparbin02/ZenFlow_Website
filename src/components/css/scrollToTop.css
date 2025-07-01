@@ -1,0 +1,16 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: linear-gradient(to right, #6c47ff, #915eff);
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 1.2rem 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 999;
+  box-shadow: 0 6px 20px rgba(144, 101, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

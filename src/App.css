@@ -1,0 +1,38 @@
+/* Root container stays the same */
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Main container default (desktop-first) */
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: auto;
+  width: 97vw; /* Laptop/Desktop default */
+  background-color: 'transparent';
+
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+/* Tablet and smaller: full width */
+@media (max-width: 1020px) {
+  .mainContainer {
+    width: 90vw;
+  }
+}
+
+/* Small mobile screens */
+@media (max-width: 460px) {
+  .mainContainer {
+    padding: 2rem 1rem;
+  }
+}
